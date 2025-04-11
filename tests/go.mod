@@ -4,7 +4,7 @@ go 1.23.5
 
 require (
 	cosmossdk.io/api v0.8.2
-	cosmossdk.io/collections v1.1.0
+	cosmossdk.io/collections v1.2.0
 	cosmossdk.io/core v1.0.0
 	cosmossdk.io/core/testing v0.0.2
 	cosmossdk.io/depinject v1.1.0
@@ -19,9 +19,9 @@ require (
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/mock v0.5.0
 	google.golang.org/grpc v1.70.0
-	google.golang.org/protobuf v1.36.4
+	google.golang.org/protobuf v1.36.6
 	gotest.tools/v3 v3.5.1
-	pgregory.net/rapid v1.1.0
+	pgregory.net/rapid v1.2.0
 )
 
 require (
