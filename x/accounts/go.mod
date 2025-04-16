@@ -38,7 +38,7 @@ require (
 	cosmossdk.io/errors v1.0.1
 	cosmossdk.io/log v1.5.0 // indirect
 	cosmossdk.io/math v1.5.0
-	cosmossdk.io/schema v1.0.0
+	cosmossdk.io/schema v1.1.0
 	cosmossdk.io/store v1.10.0-rc.1 // indirect
 	cosmossdk.io/x/staking v0.0.0-00010101000000-000000000000 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
