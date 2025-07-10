@@ -7,7 +7,7 @@ toolchain go1.23.4
 require (
 	cosmossdk.io/core v1.0.0
 	github.com/cosmos/gogoproto v1.7.0
-	github.com/tidwall/btree v1.7.0
+	github.com/tidwall/btree v1.8.0
 	go.uber.org/mock v0.5.0
 	google.golang.org/grpc v1.70.0
 )
