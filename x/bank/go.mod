@@ -148,7 +148,7 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-require cosmossdk.io/schema v1.0.0
+require cosmossdk.io/schema v1.1.0
 
 require (
 	github.com/bytedance/sonic v1.12.8 // indirect
