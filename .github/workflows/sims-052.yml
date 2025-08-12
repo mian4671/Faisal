@@ -18,7 +18,7 @@ jobs:
     runs-on: large-sdk-runner
     if: "!contains(github.event.head_commit.message, 'skip-sims')"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: "release/v0.52.x"
       - uses: actions/setup-go@v5
@@ -32,7 +32,7 @@ jobs:
     needs: [build]
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: "release/v0.52.x"
       - uses: actions/setup-go@v5
@@ -48,7 +48,7 @@ jobs:
     needs: [build]
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: "release/v0.52.x"
       - uses: actions/setup-go@v5
@@ -64,7 +64,7 @@ jobs:
     needs: [build]
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: "release/v0.52.x"
       - uses: actions/setup-go@v5
@@ -80,7 +80,7 @@ jobs:
     needs: [build]
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: "release/v0.52.x"
       - uses: actions/setup-go@v5
@@ -102,7 +102,7 @@ jobs:
     runs-on: large-sdk-runner
     if: ${{ success() }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Get previous workflow status
         uses: ./.github/actions/last-workflow-status
         id: last_status
