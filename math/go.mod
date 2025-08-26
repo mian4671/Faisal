@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/cockroachdb/apd/v3 v3.2.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.0
 	sigs.k8s.io/yaml v1.4.0
 )
 
