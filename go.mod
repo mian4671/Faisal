@@ -1,4 +1,4 @@
-go 1.23.5
+go 1.24.0
 
 module github.com/cosmos/cosmos-sdk
 
@@ -16,7 +16,7 @@ require (
 	cosmossdk.io/x/bank v0.0.0-00010101000000-000000000000
 	cosmossdk.io/x/staking v0.0.0-00010101000000-000000000000
 	cosmossdk.io/x/tx v1.1.0
-	filippo.io/edwards25519 v1.1.0
+	filippo.io/edwards25519 v1.2.0
 	github.com/99designs/keyring v1.2.2
 	github.com/bgentry/speakeasy v0.2.0
 	github.com/cometbft/cometbft v1.0.1
