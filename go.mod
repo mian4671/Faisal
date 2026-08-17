@@ -37,7 +37,7 @@ require (
 	github.com/hdevalence/ed25519consensus v0.2.0
 	github.com/huandu/skiplist v1.2.1
 	github.com/magiconair/properties v1.8.9
-	github.com/mattn/go-isatty v0.0.20
+	github.com/mattn/go-isatty v0.0.24
 	github.com/mdp/qrterminal/v3 v3.2.0
 	github.com/muesli/termenv v0.15.2
 	github.com/prometheus/client_golang v1.20.5
