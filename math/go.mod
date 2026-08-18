@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/cockroachdb/apd/v3 v3.2.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.12.0
 	sigs.k8s.io/yaml v1.4.0
 )
 
@@ -21,8 +21,6 @@ require (
 
 require (
 	cosmossdk.io/errors v1.0.1
-	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
-	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	pgregory.net/rapid v1.1.0
 )
