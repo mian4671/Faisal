@@ -91,7 +91,7 @@ type HasInvariants interface {
 }
 
 // HasServices is the interface for modules to register legacy services using the deprecated Configurator type.
-// Deprecated: use HasRegisterServices and its interface in your modules instea.
+// Deprecated: use HasRegisterServices and its interface in your modules instead.
 type HasServices interface {
 	// RegisterServices allows a module to register services.
 	RegisterServices(Configurator)

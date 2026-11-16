@@ -19,7 +19,7 @@ func NewWriterMap(
 }
 
 // WriterMap implements a branched version of the store.WriterMap.
-// After the firs time the actor's branched Store is created, it is
+// After the first time the actor's branched Store is created, it is
 // memoized in the WriterMap.
 type WriterMap struct {
 	state               store.ReaderMap

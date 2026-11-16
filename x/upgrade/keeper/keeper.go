@@ -437,7 +437,7 @@ func (k Keeper) ApplyUpgrade(ctx context.Context, plan types.Plan) error {
 		return err
 	}
 
-	// incremement the app version and set it in state and baseapp
+	// increment the app version and set it in state and baseapp
 	if k.versionModifier != nil {
 		currentAppVersion, err := k.versionModifier.AppVersion(ctx)
 		if err != nil {

@@ -56,7 +56,7 @@ format that can serve a wide variety of use cases without breaking client
 compatibility.
 
 In order to facilitate signing, transactions are separated into `TxBody`,
-which will be re-used by `SignDoc` below, and `signatures`:
+which will be reused by `SignDoc` below, and `signatures`:
 
 ```protobuf
 // types/types.proto
